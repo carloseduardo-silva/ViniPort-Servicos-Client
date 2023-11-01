@@ -62,7 +62,7 @@ div#content-nav ul {
 
 div#content-nav ul a {
     text-decoration: none;
-    color: rgb(87, 87, 87);
+    color: #707070;
     ;
 }
 
@@ -216,7 +216,7 @@ section#services{
     display: flex;
     flex-direction: column;
     color: white;
-    background-image: linear-gradient( #0d0221, #002d77f2 );
+    background-image: linear-gradient( #0d0221, #456fb3, #456fb3 );
 
 }
 
@@ -274,6 +274,7 @@ section#services{
     background-image: url(/images/services-security.png);
     background-repeat: no-repeat;
     background-size: cover;
+    
    
 }
 
@@ -284,7 +285,7 @@ section#services{
 }
 
 .service-Clean{
-    background-image: url(/images/services-security.png);
+    background-image: url(/images/services-cleanup.png);
     background-repeat: no-repeat;
     background-size: cover;
     
@@ -294,6 +295,7 @@ section#services{
     background-image: url(/images/services-system.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
 }
 
@@ -348,13 +350,13 @@ section#certification h1{
 section#proposal{
     display: flex;
     flex-direction: column;
-    padding: 2.5em 1em 1.75em 1em;
+    padding: 2.5em 1em 3em 3em;
     background-image: linear-gradient(var(--color-azul-escuro2), #0d0221 );
     color: white;
 }
 
 .proposal-content {
-    margin-bottom: 1.5em;
+    margin:0em 0em 1em 0em;
 }
 
 .proposal-content h1{
@@ -439,6 +441,14 @@ section#references h1{
 }
 
 
+.desktop{
+    display:none ;
+   
+}
+
+.bold{
+    font-weight: bolder;
+}
 
 
 
@@ -455,20 +465,12 @@ footer{
 
 }
 
-.desktop{
-    display:none ;
-   
-}
-
-.bold{
-    font-weight: bolder;
-}
 
 
 footer img{
     width: 56px;
     height: 56px;
-    margin-bottom: 1em;
+    margin-bottom: 1.15em;
     
     
 
@@ -798,7 +800,7 @@ section#introduction{
 section#proposal{
     flex-direction: row;
     justify-content: space-between;
-    padding: 2.5em 1em 1.75em 1em;
+    padding: 2.5em 1em 1.75em 3em;
 }
 
 section#proposal button{
@@ -865,8 +867,8 @@ footer{
     }
 
     div.logo-nav img{
-        width: 85px;
-        height: 75px;
+        width: 83px;
+        height: 73px;
         margin: 8px 4.65em 8px 2.5em;
     }
     
@@ -936,7 +938,7 @@ footer{
     section#proposal{
         flex-direction: row;
         justify-content: space-around;
-        padding: 3.1em 1em 2.75em 1em;
+        padding: 3.1em 0em 2.75em 0em;
     }
 
     section#proposal button{

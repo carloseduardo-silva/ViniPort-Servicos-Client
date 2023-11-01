@@ -47,8 +47,8 @@ div.logo-nav{
 }
 
 div.logo-nav img{
-    width: 85px;
-    height: 75px;
+    width: 83px;
+    height: 73px;
     margin: 8px 1em 8px 1.5em;
 }
 
@@ -98,9 +98,9 @@ div.icons-nav{
 }
 
 .icon{
-    width: 25px;
-    height: 25px;
-    margin: 10px 15px ;
+    width: 23px;
+    height: 23px;
+    margin: 8px 13px ;
 
 }
 
@@ -119,9 +119,6 @@ header{
     color: white;
     background-image: linear-gradient(#0d0221, #456fb3, #456fb3);
     background-attachment: fixed;
-    background-size: cover;
-    background-repeat: no-repeat;
-    background-position: top left;
     padding: 14em 1em 8em 1em;
     font-family: 'Roboto', sans-serif;
 
@@ -153,6 +150,7 @@ section#content{
     align-items: start;
     flex-direction: column;
     width: 62%;
+    margin: 1em 0em;
 
 }
 
@@ -187,9 +185,11 @@ section#content{
 
 
 section#content img{
-    background-color: var(--color-azul-escuro);
+    background-image: linear-gradient(#0d0221, #456fb3, #456fb3);
     width:85%;
     height: 450px;
+    border-radius: 5px;
+   
 }
 
 
@@ -355,21 +355,8 @@ section#services{
     background-image: url(/images/services-system.png);
     background-repeat: no-repeat;
     background-size: cover;
+    background-position: center;
     
-}
-
-
-
-footer{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    padding: 0.5em 1em 1em 1em;
-    font-family: 'Roboto', sans-serif;
-    
-
-
 }
 
 .desktop{
@@ -382,11 +369,27 @@ footer{
 }
 
 
-footer img{
-    width: 90px;
-    height: 80px;
-    margin: 1em 10px 0.5em 10px;
+footer{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25em 1em 2em 1em;
+    font-family: 'Roboto', sans-serif;
     
+
+
+}
+
+
+
+footer img{
+    width: 56px;
+    height: 56px;
+    margin-bottom: 1.15em;
+    
+    
+
 }
 
 .content-footer{
@@ -406,11 +409,6 @@ footer img{
     
 }
 
-footer .icon{
-    width: 23px;
-    height: 23px;
-}
-
 .mobile{
     display: flex;
     align-items: center;
@@ -419,7 +417,7 @@ footer .icon{
 }
 
 .footer-icons{
-    margin: 2px;
+    margin: 1em;
 }
 
 .content-aside{
@@ -428,13 +426,15 @@ footer .icon{
 
 .content-aside p{
     margin: 3px;
-    color: #19053e
+    color:var(--color-azul-fundo);
+    font-size: 15px;
 
 }
 
 .content-aside a {
     margin: 3px;
-    color: rgb(150, 150, 150)
+    color: rgb(150, 150, 150);
+    font-size: 12px;
     
 }
 
@@ -503,8 +503,6 @@ footer .icon{
         height:auto;
         align-items:center;
         padding: 17em 1em 8em 1em;
-        background-image: linear-gradient(#0d0221, #456fb3, #456fb3);
-        background-position:  center;
         
     }
 
@@ -627,7 +625,7 @@ footer .icon{
         flex-direction: row;
         justify-content: space-around;
         align-items:  start;
-        margin: 0em 15vw;
+        margin: 0em 12vw;
         padding: 6em 1em 6em 1em;
 
     }
@@ -717,10 +715,12 @@ footer .icon{
 
 @media (max-width: 570px) {
 
-    
-
     section#content{
-        padding: 6em 2em 3em 1em;
+        padding: 6em 1em;
+    }
+
+    .info-content{
+        width: 85%;
     }
 
 

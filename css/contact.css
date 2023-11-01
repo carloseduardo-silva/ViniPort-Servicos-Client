@@ -47,8 +47,8 @@ div.logo-nav{
 }
 
 div.logo-nav img{
-    width: 85px;
-    height: 75px;
+    width: 83px;
+    height: 73px;
     margin: 8px 1em 8px 1.5em;
 }
 
@@ -98,9 +98,9 @@ div.icons-nav{
 }
 
 .icon{
-    width: 25px;
-    height: 25px;
-    margin: 10px 15px ;
+    width: 23px;
+    height: 23px;
+    margin: 8px 13px ;
 
 }
 
@@ -290,6 +290,14 @@ form button:hover{
     transition: 600ms;
 }
 
+.desktop{
+    display:none ;
+   
+}
+
+.bold{
+    font-weight: bolder;
+}
 
 
 
@@ -305,21 +313,14 @@ footer{
 
 }
 
-.desktop{
-    display:none ;
-   
-}
-
-.bold{
-    font-weight: bolder;
-}
 
 
 footer img{
-    width: 102px;
-    height: 92px;
-    margin: 1em;
-   
+    width: 56px;
+    height: 56px;
+    margin-bottom: 1.15em;
+    
+    
 
 }
 
@@ -348,7 +349,7 @@ footer img{
 }
 
 .footer-icons{
-    margin: 2px;
+    margin: 1em;
 }
 
 .content-aside{
@@ -357,13 +358,15 @@ footer img{
 
 .content-aside p{
     margin: 3px;
-    color: #19053e
+    color:var(--color-azul-fundo);
+    font-size: 15px;
 
 }
 
 .content-aside a {
     margin: 3px;
-    color: rgb(150, 150, 150)
+    color: rgb(150, 150, 150);
+    font-size: 12px;
     
 }
 
