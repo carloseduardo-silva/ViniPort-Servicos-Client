@@ -216,7 +216,7 @@ section#services{
     display: flex;
     flex-direction: column;
     color: white;
-    background-image: linear-gradient( #0d0221, #456fb3, #456fb3 );
+    background-color: #020721;
 
 }
 
@@ -351,8 +351,9 @@ section#proposal{
     display: flex;
     flex-direction: column;
     padding: 2.5em 1em 3em 3em;
-    background-image: linear-gradient(var(--color-azul-escuro2), #0d0221 );
+    background-color: #020721;
     color: white;
+    margin: 4em 0em;
 }
 
 .proposal-content {
@@ -628,7 +629,7 @@ div#content-nav ul li:hover{
 header{
     height: 90vh;
     align-items: start;
-    padding: 10em 0em 10em 9em;
+    padding: 10em 0em 10em 4em;
     background-image: url(/images/fundo-headerT1.png);
     background-position: top center;
     
@@ -801,6 +802,7 @@ section#proposal{
     flex-direction: row;
     justify-content: space-between;
     padding: 2.5em 1em 1.75em 3em;
+    margin: 1em 0em 0.2em 0em;
 }
 
 section#proposal button{
@@ -844,27 +846,12 @@ footer{
 
 @media (min-width:1000px) {
 
-    .content-header h1{
-        font-size: 4.4em ;
-      
-    }
-    
-    .content-header p{
-        font-size: 18px;
-        margin-right: 150px;
-      
-        
-    }
+  
 
     header{
-        padding: 10.75em 0em 10em 9em;
+        padding: 10.75em 0em 10em 7em;
     }
 
-    div.icons-nav{
-        display: flex;
-       margin: 1em;
-       
-    }
 
     div.logo-nav img{
         width: 83px;
@@ -1021,6 +1008,26 @@ footer{
     
     
     
+}
+
+@media (min-width: 1170px) {
+    
+    div.icons-nav{
+        display: flex;
+       margin: 1em;
+       
+    }
+    .content-header h1{
+        font-size: 4.4em ;
+      
+    }
+    
+    .content-header p{
+        font-size: 18px;
+        margin-right: 150px;
+      
+        
+    }
 }
 
 @media (max-width:580px) {
